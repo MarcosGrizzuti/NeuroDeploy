@@ -1,0 +1,233 @@
+/* BODY */
+.products-title {
+    padding-top: 260px;
+    color: white;
+    width: 1170px;
+    margin-right: auto;
+    margin-left: -40px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.products-title h1 {
+    font-size: 100px;
+}
+
+/* Productos */
+.product {
+    height: 513px;
+    padding-top: 40px;
+}
+
+.product-view {
+    width: 35.66%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    float: left;
+}
+
+.product-image {
+    max-width: 225px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.product-image img {
+    width: 100%;
+    cursor: pointer;
+    vertical-align: middle;
+    border: 0px;
+    filter: drop-shadow(0px 20px 60px #151515)
+}
+
+.product-desc {
+    width: 403px;
+    float: left;
+    padding-top: 45px;
+}
+
+.price {
+    color: white;
+    font-size: 25px;
+}
+
+.title {
+    color: white;
+    font-size: 70px;
+}
+
+.bs-title {
+    color: white;
+    font-size: 60px;
+}
+
+.keyword {
+    color: white;
+    font-size: 30px;
+    display: inline;
+    padding: 3px 25px;
+}
+
+.paragraph {
+    color: white;
+    font-size: 25px;
+    padding-top: 20px;
+    font-family: "Tungsten-Book";
+    letter-spacing: 1px;
+}
+
+.buttom {
+    background-color: #131313;
+    border: 1px solid transparent;
+    width: 200px;
+    color: white;
+    padding: 5px 50px;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 10px 0px;
+    font-weight: bold;
+}
+
+.buttom:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 425px) {
+    .product {
+        height: 100px;
+    }
+
+    .product-desc {
+        position: relative;
+        bottom: 50px;
+    }
+
+    .product-image a img {
+        width: 100px;
+        position: relative;
+        top: 40px;
+    }
+
+    .product-desc {
+        width: 150px;
+        float: left;
+    }
+
+    .title {
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+
+    .bs-title {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .keyword {
+        display: none;
+    }
+
+    .paragraph {
+        margin-top: 0px;
+        font-size: 20px;
+    }
+
+    .buttom {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .product {
+        height: 100px;
+    }
+
+    .product-desc {
+        position: relative;
+        bottom: 50px;
+    }
+
+    .product-image a img {
+        width: 140px;
+        position: relative;
+        top: 40px;
+    }
+
+    .product-desc {
+        width: 150px;
+        float: left;
+    }
+
+    .title {
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+
+    .bs-title {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .keyword {
+        display: none;
+    }
+
+    .paragraph {
+        margin-top: 0px;
+        font-size: 20px;
+    }
+
+    .buttom {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1533px) {
+    .product {
+        height: 400px;
+    }
+
+    .product-view {
+        position: relative;
+        top: 30px;
+    }
+
+    .product-image a img {
+        width: 150px;
+    }
+
+    .product-desc {
+        width: 261px;
+        float: left;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .bs-title {
+        font-size: 40px;
+    }
+
+    .keyword {
+        font-size: 20px;
+        padding: 2px 18px;
+    }
+
+    .paragraph {
+        font-size: 20px;
+    }
+
+    .buttom {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Tungsten-Semibold;
+    src:url(/stylesheets/Fonts/Tungsten-Semibold.otf);
+}
+
+@font-face {
+    font-family: Tungsten-Book;
+    src:url(/stylesheets/Fonts/Tungsten-Book.otf);
+}
+
+@font-face {
+    font-family: GothamLight;
+    src:url(/stylesheets/Fonts/GothamLight.ttf);
+}
+
+* {
+    font-family: "Tungsten-Semibold";
+}

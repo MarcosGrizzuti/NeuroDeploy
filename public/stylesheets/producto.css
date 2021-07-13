@@ -1,0 +1,287 @@
+*, .container-fluid {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    text-align: justify;
+    font-family: "Tungsten-Semibold";
+}
+
+.product {
+    padding: 3.12rem 0;
+}
+
+.product-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.product-img img {
+    max-width: 18.75rem;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 20px 60px #151515);
+    cursor: pointer;
+}
+
+.product-desc {
+    width: 37.5rem;
+}
+
+.product-price {
+    font-size: 2.5rem;
+}
+
+.product-format {
+    font-size: 1.68rem;
+    color: black;
+}
+
+.product-name {
+    margin-top: 0.62rem;
+    color: white;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 0.9;
+    box-sizing: border-box;
+    display: block;
+    letter-spacing: 2px;
+    font-size: 5.72rem;
+    text-align: left;
+}
+
+.product-paragraph {
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 1.25rem;
+}
+
+.product-paragraph p {
+    color: #131313;
+    line-height: 1.3;
+    margin: 0 0 10.5px;
+    display: block;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+    font-size: 1.87rem;
+    font-family: "Tungsten-Book";
+}
+
+.buttom {
+    background-color: #131313;
+    border: 1px solid transparent;
+    color: white;
+    padding: 5px 70px;
+    font-size: 2.81rem;
+    text-decoration: none;
+    border-radius: 10px 0px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.buttom:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+/* PRODUCT DESCRIPTION */
+.padding-top {
+    padding-top: 5rem;
+}
+
+.product-content-detail {
+    font-size: 1.87rem;
+    width: 90%;
+}
+
+.product-content-detail h3 {
+    font-size: 2.2rem;
+    font-family: "Tungsten-Semibold";
+}
+
+.product-content-detail ul li {
+    font-size: 1.7rem;
+    font-family: "Tungsten-Book";
+    margin-left: 3.12rem;
+    padding: 7px 0px;
+}
+
+.product-content-detail ul li b {
+    font-size: 1.87rem;
+    font-family: "Tungsten-Book";
+}
+
+/* PRODUCT ACCORDION */
+.bc-gray {
+    background-color: rgb(209, 209, 209);
+}
+
+.product-content-title h3, .product-dosis h3 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.accordion {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn-open {
+    width: 90%;
+    height: 2.5rem;
+}
+
+.ingredient-name {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.ingredient-dosage {
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.btn-open:after {
+    content: "\2796";
+    font-size: 1rem;
+    color: #777;
+    position: relative;
+    left: 18.25rem;
+    bottom: 1.87rem;
+}
+
+.btn-open.collapsed:after {
+    content: '\02795';
+}
+
+.card-body {
+    font-size: 1.5rem;
+    font-family: "Tungsten-Book";
+    letter-spacing: 1px;
+}
+
+.card-body b {
+    font-size: 1.5rem;
+    font-family: "Tungsten-Book";
+    letter-spacing: 1px;
+}
+
+/* DOSIS y ACLARACION */
+.product-dosis {
+    width: 80%;
+    margin: 1.87rem auto;
+}
+
+.product-dosis h3 {
+    margin-top: 1.87rem;
+}
+
+.product-dosis h6 {
+    font-size: 2rem;
+    font-family: "Tungsten-Book";
+}
+
+.product-dosis h6 b {
+    font-size: 2rem;
+    font-family: "Tungsten-Book";
+}
+
+.aclaracion, .aclaracion a {
+    font-weight: bolder;
+    font-size: 2rem;
+    font-family: "Tungsten-Book";
+    margin-top: 3.125;
+}
+
+/* MEDIA */
+@media screen and (max-width: 1100px) {
+    .product-paragraph {
+        width: 80%;
+    }
+
+    .product-img {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    * {
+        font-size: 14px;
+    }
+
+    .product-content-detail {
+        position: relative;
+        right: 5.625rem;
+        width: 100%;
+    }
+
+    /* .btn-open:after {
+        left: 10.5rem;
+    } */
+}
+
+@media screen and (max-width: 991px) {
+    .product-img {
+        justify-content: center;
+    }
+
+    .product-content-detail {
+        position: relative;
+        right: 0px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .product-format {
+        margin-top: 1.25rem;
+    }
+
+    .product-desc {
+        width: 100%;
+        text-align: center;
+    }
+
+    .product-paragraph {
+        width: 60%;
+        margin: 1.87rem auto;
+    }
+
+    .product-name, .product-format {
+        text-align: center;
+    }
+
+    .aclaracion, .aclaracion a {
+        margin-top: 1.87rem;
+    }
+
+    /* .btn-open:after {
+        left: 27rem;
+    } */
+}
+
+@media screen and (max-width: 768px) {
+    /* .btn-open:after {
+        left: 20.5rem;
+    } */
+}
+
+@media screen and (max-width: 650px) {
+    * {
+        font-size: 12px;
+    }
+
+    .product-name {
+        width: 26rem;
+        margin: 15px auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    * {
+        font-size: 10px;
+    }
+
+    .product-name {
+        font-size: 4rem;
+    }
+}

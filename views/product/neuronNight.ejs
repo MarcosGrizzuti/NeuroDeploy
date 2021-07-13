@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><%= title %></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    <!-- <link rel="stylesheet" href="/stylesheets/research.css"> -->
+    <link rel="stylesheet" href="/stylesheets/fuentes.css">
+    <link rel="stylesheet" href="/stylesheets/producto.css">
+</head>
+<body class="body">
+
+    <!-- BODY -->
+    <div class="container-fluid" style="background-color:  rgb(52,23,62); background: linear-gradient(270deg, rgba(52,23,62,1) 0%, rgba(108,46,131,1) 20%, rgba(143,60,175,1) 50%, rgba(108,46,131,1) 80%, rgba(52,23,62,1) 100%);">
+        <div class="product">
+            <div class="row">
+                <div class="col-lg-5 col-md-12">
+                    <div class="product-img">
+                        <img src="/images/productos/Botellas/NeuronNight.png" alt="NeuronRest_Bottle">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <div class="product-desc">
+                        <div class="product-format"><span class="product-price">$20.00</span> - 60 CAPSULAS</div>
+                        <div class="product-name">Neuron Rest</div>
+                        <div class="product-paragraph"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias est totam quidem quia qui eveniet, deleniti iusto quae accusamus at delectus vel ex voluptate consectetur, ipsam tempora quam esse possimus et facilis. Aspernatur, repellendus pariatur! Saepe aperiam, vel doloremque, accusantium suscipit non deserunt aliquam vitae consectetur veritatis necessitatibus eveniet ipsa.</p></div>
+                        <a class="buttom" href="#">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DESC -->
+    <div class="container-fluid">
+        <div class="row product-content">
+            <div class="col-2"></div>
+            <div class="col-lg-5 col-md-12 padding-top">
+                <div class="product-content-detail">
+                    <h3>LOS COMPUESTOS DE ESTE PRODUCTO BUSCAN AYUDAR A:</h3>
+                    <ul>
+                        <li>Promover la recuperación total del cuerpo.</li>
+                        <li>Conciliar un Sueño eficiente.</li>
+                        <li>Mejorar el humor y bienestar.</li>
+                    </ul>
+                    <h3>Nuestros ingredientes:</h3>
+                    <ul>
+                        <li><b>L-teanina</b> - En general, varios estudios han demostrado que la administración de L-teanina mejoró los resultados de ansiedad y estrés, junto con mejoras en otras manifestaciones como la depresión y los síntomas psicopatológicos. Otros Estudios dicen que L-Teanina induce la relajación y podría reducir la presión sanguínea. Los estudios mencionan que puede ser beneficiosa para un buen dormir. *</li>
+                        <li><b>Zinc</b> - Los estudios científicos dicen que podría mantener el sistema inmune funcionando bien y de forma correcta. *</li>
+                        <li><b>Glicinato de magnesio</b> - Se ha visto que podrían colaborar con la migraña, ansiedad, dolor crónico y diabetes. *</li>
+                        <li><b>Triptófano</b> - Los Estudios médicos recientes establecen que podría ayudar a promover un mejor sueño, atenuar síntomas de depresión y ansiedad, mejorar el humor y Colaboraría con el manejo del dolor. *</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-md-12 bc-gray padding-top">
+                <div class="product-content-title">
+                    <h3>Ingredientes</h3>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn collapsed btn-open" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    <div class="row">
+                                        <div class="col-7 ingredient-name">Glicinato de magnesio</div>
+                                        <div class="col-5 ingredient-dosage">1000 mg</div>
+                                    </div>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                El magnesio es el segundo catión intracelular y el cuarto elemento principal en el cuerpo. Es muy necesario para múltiples funciones fisiológicas.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn collapsed btn-open" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <div class="row">
+                                        <div class="col-7 ingredient-name">Triptófano</div>
+                                        <div class="col-5 ingredient-dosage">100 mg</div>
+                                    </div>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                El triptófano es un aminoácido esencial que cumple importantes funciones en el cuerpo.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn collapsed btn-open" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <div class="row">
+                                        <div class="col-7 ingredient-name">L-Teanina</div>
+                                        <div class="col-5 ingredient-dosage">400 mg</div>
+                                    </div>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Es un aminoácido único no proteico que se encuentra naturalmente en las plantas de té verde y se considera un suplemento multifacético.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h5 class="mb-0">
+                                <button class="btn collapsed btn-open" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <div class="row">
+                                        <div class="col-7 ingredient-name">Zinc</div>
+                                        <div class="col-5 ingredient-dosage">10 mg</div>
+                                    </div>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Es un nutriente que cumple muchos roles en el cuerpo humano. Debemos obtenerlo a través de la dieta o suplementos.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-dosis">
+                    <h3>Dosis:</h3>
+                    <h6>Tomar entre <b>1 y 3 capsulas</b> diarias o como recomienda su médico.</h6>
+                    <h3>Aclaración:</h3>
+                    <h6>Mantener lejos del alcance de los niños. Las mujeres embarazadas o en período de lactancia y aquellos que se someten a tratamientos medicos deben consultar a un médico antes de tomar este suplemento.</h6>
+                    <p class="aclaracion">* Las referidas declaraciones son en base a estudios e investigaciones médicas oficiales, para más información acceder a <a href="/research/neuronNight">Estudios Cientificos</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FIN DEL BODY -->
+
+    <!-- Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+</body>
+</html>

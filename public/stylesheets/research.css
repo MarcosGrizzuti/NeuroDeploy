@@ -1,0 +1,161 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.middle-line {
+    border: 1px solid rgb(118, 118, 118);
+}
+
+/* Research product description */
+.research-product-description, .research-product-ingredients {
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.research-justifycontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.research-product-name {
+    font-weight: bolder;
+    letter-spacing: -4px;
+    margin-bottom: 20px;
+}
+
+.research-general-features, .research-ingredients {
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.research-secondary-features ul, .research-ingredients-list ul {
+    margin-top: 20px;
+    padding-left: 25px;
+}
+
+.research-secondary-features ul li p, .research-ingredients-list ul li p {
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+}
+
+/* Research product image */
+.research-product-image {
+    display: flex;
+    justify-content: center;
+}
+
+.research-product-image img {
+    width: 40%;
+}
+
+.research-product-nutricional-info {
+    display: flex;
+    justify-content: center;
+}
+
+.research-product-nutricional-info img {
+    width: 540px;
+}
+
+/* research-ingredients-description */
+.research-ingredients-description {
+    padding-bottom: 20px;
+}
+
+.research-product-ingredient-name h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.research-ingredients-text {
+    font-size: 20px;
+}
+
+.research-ingredients-subtitle {
+    font-size: 23px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.research-studies-list li {
+    list-style: none;
+}
+
+.research-studies-text {
+    font-size: 18px;
+    color: rgb(95, 95, 95);
+}
+
+.list-bulletpoint {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 5px;
+    color: black;
+}
+
+/* Menos de 320 */
+@media screen and (max-width: 320px) {
+    html {
+        position: relative;
+        left: 16%;
+    }
+
+    .research-product-name {
+        text-align: center;
+    }
+
+    .research-studies-list ul li p {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    html {
+        position: relative;
+        left: 19%;
+    }
+
+    .research-product-name {
+        text-align: center;
+    }
+
+    .research-studies-list ul li p {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    html {
+        position: relative;
+        left: 0%;
+    }
+
+    .research-product-name {
+        text-align: center;
+    }
+
+    .research-studies-list ul li p {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    html {
+        position: relative;
+        left: 0%;
+    }
+
+    .research-product-name {
+        text-align: center;
+    }
+
+    .research-studies-list ul li p {
+        width: 400px;
+    }
+}

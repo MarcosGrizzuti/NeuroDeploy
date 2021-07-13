@@ -1,0 +1,78 @@
+<!-- REVIEWS -->
+    <div class="container product-reviews">
+        <a class="buttomReview1" href="/productos/Neuron-Focus/review" style="padding: 5px 50px;">Escribe tu reseña</a>
+        <h3>Reseñas (4)</h3>
+        <div class="row">
+            <div class="col-6">
+                <div class="review">
+                    <div class="star-rating">
+                        <%= review.star%>
+                    </div>
+                    <strong>Buena presentacion y atencion</strong>
+                    <em>por Nicolas S. el 09/08/2020</em>
+                    <p></p>
+                    <p class="review-desc">Siempre estuve a la espera de que se traigan nootropicos a la argentina, me encanto su envase y diseño ademas de la atencion que me brindaron al momento de hacer una consulta! Ojala sigan asi!</p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- REVIEWS -->
+    <!-- <div class="container product-reviews">
+        <a class="buttomReview1" href="/productos/Neuron-Focus/review" style="padding: 5px 50px;">Escribe tu reseña</a>
+        <h3>Reseñas (4)</h3>
+        <div class="row">
+            <div class="col-6">
+                <div class="review">
+                    <div class="star-rating">
+                        <%= review.star%>
+                    </div>
+                    <strong>Buena presentacion y atencion</strong>
+                    <em>por Nicolas S. el 09/08/2020</em>
+                    <p></p>
+                    <p class="review-desc">Siempre estuve a la espera de que se traigan nootropicos a la argentina, me encanto su envase y diseño ademas de la atencion que me brindaron al momento de hacer una consulta! Ojala sigan asi!</p>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="review">
+                    <div class="star-rating">
+                        <%= review.star%>
+                    </div>
+                    <strong>Buena presentacion y atencion</strong>
+                    <em>por Nicolas S. el 09/08/2020</em>
+                    <p></p>
+                    <p class="review-desc">Siempre estuve a la espera de que se traigan nootropicos a la argentina, me encanto su envase y diseño ademas de la atencion que me brindaron al momento de hacer una consulta! Ojala sigan asi!</p>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="review">
+                    <div class="star-rating">
+                        <%= review.star%>
+                    </div>
+                    <strong>Buena presentacion y atencion</strong>
+                    <em>por Nicolas S. el 09/08/2020</em>
+                    <p></p>
+                    <p class="review-desc">Siempre estuve a la espera de que se traigan nootropicos a la argentina, me encanto su envase y diseño ademas de la atencion que me brindaron al momento de hacer una consulta! Ojala sigan asi!</p>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="review">
+                    <div class="star-rating">
+                        <%= review.star%>
+                    </div>
+                    <strong>Buena presentacion y atencion</strong>
+                    <em>por Nicolas S. el 09/08/2020</em>
+                    <p></p>
+                    <p class="review-desc">Siempre estuve a la espera de que se traigan nootropicos a la argentina, me encanto su envase y diseño ademas de la atencion que me brindaron al momento de hacer una consulta! Ojala sigan asi!</p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div> -->
