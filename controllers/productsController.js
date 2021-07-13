@@ -3,25 +3,25 @@ let researchController = {
         res.render('products/productos', { title: 'Productos' });
     },
     neuronBrainSupport: function(req, res, next) {
-        res.render('product/NeuronBrainSupport', { title: 'NeuronBrainSupport' });
+        res.render('product/neuronBrainSupport', { title: 'NeuronBrainSupport' });
     },
     neuronFocus: function(req, res, next) {
-        res.render('product/NeuronFocus', { title: 'NeuronFocus' });
+        res.render('product/neuronFocus', { title: 'NeuronFocus' });
     },
     neuronFocusSC: function(req, res, next) {
-        res.render('product/NeuronFocusSC', { title: 'NeuronFocus SC' });
+        res.render('product/neuronFocusSC', { title: 'NeuronFocus SC' });
     },
     neuronMemory: function(req, res, next) {
-        res.render('product/NeuronMemory', { title: 'NeuronMemory' });
+        res.render('product/neuronMemory', { title: 'NeuronMemory' });
     },
     neuronNight: function(req, res, next) {
-        res.render('product/NeuronNight', { title: 'NeuronNight' });
+        res.render('product/neuronNight', { title: 'NeuronNight' });
     },
     neuronZen: function(req, res, next) {
-        res.render('product/NeuronZen', { title: 'NeuronZen' });
+        res.render('product/neuronZen', { title: 'NeuronZen' });
     },
     neuronPlus: function(req, res, next) {
-        res.render('product/NeuronPlus', { title: 'NeuronPlus' });
+        res.render('product/neuronPlus', { title: 'NeuronPlus' });
     }
 }
 
